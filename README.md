@@ -1,5 +1,12 @@
 # LocalTextToSpeech
 
+Local text-to-speech model. Paste text on standard input and the script writes `output_full.mp3` with Kokoro (`af_bella`).
+
+SamWiki ranks this **Level 2, intermediate**. The Pages site for this repo uses the shared Cayman skin.
+
+[Contribute / Open a PR](https://github.com/sdcastillo/LocalTextToSpeech/compare)
+
+```python
 import sys
 import os
 import soundfile as sf
@@ -61,4 +68,4 @@ if os.path.exists(temp_wav):
     os.remove(temp_wav)
 
 print("--- Finished! ---")
-Local Text To Speech Model
+```
